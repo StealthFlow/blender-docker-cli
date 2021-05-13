@@ -9,4 +9,4 @@ make run
 ```
 
 `scripts/test_script.py` generates `blender/generated.blend` through `make run`.
-It is `blender` file based on formula of `calc_params`.
+Generated blender file is based on formula of `Creator.calc_params()`.

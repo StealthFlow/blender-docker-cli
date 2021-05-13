@@ -2,12 +2,14 @@ import bpy
 import numpy as np
 import tqdm
 
+
 class Creator:
     def __init__(self):
         self.del_defaul_obj()
         self.n_loop = 18
         self.cube_scale = 3.0
         self.cube_distance = 30
+
 
     def __call__(self):
         for n2 in tqdm.tqdm(range(self.n_loop)):
